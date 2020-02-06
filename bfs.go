@@ -28,17 +28,15 @@ func (g Graph) BFS(s int) {
 	//we create an array of bools with indexes that we have visited
 	visited := make([]bool, g.V)
 	//we create a queue
-	var queue []int
+	queue := Queue{[]int{}, 0}
 	//we set the current vertice as visited
 	visited[s] = true
 	//we append the current vertice to the queue
-	queue = append(queue, s)
+	queue.enqueue(s)
 	//we loop until the queue is empty
-	for len(queue) != 0 {
+	for !queue.empty() {
 		//set the current vertice to the first item in the queue
-		s = queue[0]
-		//pop the first item off the queue
-		queue = queue[1:]
+		s = queue.dequeue()
 		//print it out
 		fmt.Print(s, " ")
 		//loop through the adjacent vertices
@@ -48,7 +46,7 @@ func (g Graph) BFS(s int) {
 				//set the vertice to visited
 				visited[adj] = true
 				//append it to the queue
-				queue = append(queue, adj)
+				queue.enqueue(adj)
 			}
 		}
 	}

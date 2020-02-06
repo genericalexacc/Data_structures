@@ -31,7 +31,7 @@ func (s *Stack) pop() int {
 	return e
 }
 
-//Check if they stack is empty
+//Check if the stack is empty
 func (s *Stack) empty() bool {
 	return s.H == 0
 }

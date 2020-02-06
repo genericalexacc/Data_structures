@@ -10,7 +10,7 @@ func main() {
 	g.addEdge(2, 3)
 	g.addEdge(3, 1)
 
-	g.topologicalSort()
+	// g.topologicalSort()
 	g.BFS(5)
-	g.DFS(2)
+	// g.DFS(2)
 }
