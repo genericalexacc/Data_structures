@@ -1,7 +1,7 @@
 # Data_structures
 
 Implemented now:
--DFS
--BFS
--Topological sort
--Stack data structure
+- DFS
+- BFS
+- Topological sort
+- Stack data structure
