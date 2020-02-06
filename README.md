@@ -2,8 +2,6 @@
 
 Implementation of data structures and algorithms
 
-What i have done now
-
 
 ## Algorithms
 - Depth First Search (DFS)
