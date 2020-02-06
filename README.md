@@ -12,8 +12,8 @@ What i have done now
 - Djikstra shortest path
 
 
-## Structures
+## Data Structures
 - Graph
 - Weighted Graph
-- Stack data structure
-- Queue data structure
+- Stack
+- Queue
