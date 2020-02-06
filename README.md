@@ -8,3 +8,4 @@ What i have done now
 - BFS
 - Topological sort
 - Stack data structure
+- Queue data structure
