@@ -6,8 +6,8 @@ What i have done now
 
 
 ## Algorithms
-- DFS
-- BFS
+- Depth First Search (DFS)
+- Breadth First Search (BFS)
 - Topological sort
 - Djikstra shortest path
 
