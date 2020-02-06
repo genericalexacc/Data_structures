@@ -7,7 +7,7 @@ Implementation of data structures and algorithms
 - Depth First Search (DFS)
 - Breadth First Search (BFS)
 - Topological sort
-- Djikstra shortest path
+- Dijkstra shortest path
 
 
 ## Data Structures

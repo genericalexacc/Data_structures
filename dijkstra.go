@@ -26,7 +26,7 @@ func (wg *WeightedGraph) minDistance(dist []int, sptSet []bool) int {
 	return minIndex
 }
 
-func (wg *WeightedGraph) djikstra(src int) {
+func (wg *WeightedGraph) dijkstra(src int) {
 	//Create a distance array of length (# vertices)
 	dist := make([]int, wg.V)
 	//Create an array that keeps track of whether we did its shortest path tree of length (# vertices)

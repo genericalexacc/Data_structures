@@ -13,5 +13,5 @@ func main() {
 	wg.addEdge(7, []int{8, 11, 0, 0, 0, 0, 1, 0, 7})
 	wg.addEdge(8, []int{0, 0, 2, 0, 0, 0, 6, 7, 0})
 
-	wg.djikstra(0)
+	wg.dijkstra(0)
 }
