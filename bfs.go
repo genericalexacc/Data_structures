@@ -2,27 +2,6 @@ package main
 
 import "fmt"
 
-//Graph structure
-type Graph struct {
-	V   int
-	Adj [][]int
-}
-
-//MakeGraph graph constructor
-func MakeGraph(V int) Graph {
-	return Graph{
-		//number of vertices in the graph
-		V,
-		//adjacency list is a 2d array of ints
-		make([][]int, V),
-	}
-}
-
-//Add an edge to the graph
-func (g Graph) addEdge(v, w int) {
-	g.Adj[v] = append(g.Adj[v], w)
-}
-
 //BFS performs a breadth first search over the graph
 func (g Graph) BFS(s int) {
 	//we create an array of bools with indexes that we have visited
